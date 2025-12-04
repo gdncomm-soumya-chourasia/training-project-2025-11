@@ -127,7 +127,6 @@ public class CartService {
             return ApiResponse.failure("INVALID_MEMBER", "Cart not found for member: " + memberId);
         }
 
-
         List<CartItem> cartItems = cart.getCartItems();
         CartItem itemToUpdate = null;
 
